@@ -1,27 +1,3 @@
-// JavaScript code to dynamically generate floating 1's and 0's with fade in/out animations
-
-// function createFloatingElements() {
-//     const terminal = document.querySelector('.terminal');
-//     const fragment = document.createDocumentFragment();
-
-//     for (let i = 0; i < 10; i++) {
-//         const randomNumber = Math.floor(Math.random() * 2);
-//         const randomDelay = Math.random() * 5; // Random delay for staggered animations
-//         const element = document.createElement('span');
-//         element.textContent = randomNumber.toString();
-//         element.classList.add(randomNumber === 0 ? 'zero' : 'one');
-//         element.style.left = Math.random() * 100 + '%'; // Random horizontal position
-//         element.style.top = Math.random() * 100 + '%'; // Random vertical position
-//         element.style.animationDelay = randomDelay + 's'; // Staggered animation delay
-//         fragment.appendChild(element);
-//     }
-
-//     terminal.appendChild(fragment);
-// }
-
-// createFloatingElements();
-
-
 consoleText(['Clayton Warstler'], 'text', ['tomato']);
 
 function consoleText(words, id, colors) {
@@ -68,3 +44,13 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+window.addEventListener('scroll', function() {
+  var scrollPosition = window.scrollY;
+  var body = document.body;
+  if (scrollPosition > 500) { // adjust this value as needed
+      body.style.background = '#6699cc'; // bluish grey
+  } else {
+      body.style.background = '#333'; // dark grey
+  }
+});

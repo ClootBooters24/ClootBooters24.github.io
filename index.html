@@ -27,14 +27,44 @@
         <p>Describe skills</p>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me!</h2>
-        <p>Describe contact</p>
-    </section>
-
     <section id="projects">
         <h2>Projects</h2>
         <p>Describe projects</p>
+    </section>
+
+    <section class="contact">
+        <h2 class="contactHeading">
+            Contact Me
+        </h2>
+        <p>
+            Have a question or want to reach out to me? 
+            Leave your details and I'll get back to you 
+            as soon as possible.
+        </p>
+        <form class="contactForm" 
+        action="https://formspree.io/f/mvoevnql"
+        method="POST"
+        enctype="multipart/form-data"
+        >
+            <input class="contactFormEmail" type="email" name="email" placeholder="Email">
+            <input class="contactFormName" type="text" name="name" placeholder="Name">
+            <textarea class="contactFormMessage" name="message" placeholder="Message"></textarea>
+
+            <div class="contactFormErrorSubmit">
+                <div class="formError">
+                    <div class="formError-Name">
+                        Please enter your name.
+                    </div>
+                    <div class="formError-Email">
+                        Please enter a valid email address.
+                    </div>
+                    <div class="formError-Message">
+                        Please enter a message.
+                    </div>
+                </div>
+                <button class="contactFormSubmit" type="submit">Submit</button>
+            </div>
+        </form>
     </section>
 
     <footer>
