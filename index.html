@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <section id="introduction">
+    <section class="introduction">
         <div class='console-container'>
             <span id='text'></span>
             <div class='console-underscore' id='console'>
@@ -17,17 +17,24 @@
     </section>
     <script src="index.js"></script>
 
-    <section id="aboutMe">
+    <section class="aboutMe">
         <h2>About Me</h2>
+        <div>
+            <img src="assets/ClaytonWarstler.jpg" alt="Clayton Warstler" class="selfie">
+        </div>
         <p>Describe myself</p>
     </section>
 
-    <section id="skills">
+    <section class="skills">
         <h2>Skills</h2>
         <p>Describe skills</p>
+        <div>
+            <p>Download my Resume!</p>
+            <a href="assets/WarstlerC_ResumeUpdated_Spring2024.pdf" download=>Download</a>
+        </div>
     </section>
 
-    <section id="projects">
+    <section class="projects">
         <h2>Projects</h2>
         <p>Describe projects</p>
     </section>
@@ -54,12 +61,15 @@
                 <div class="formError">
                     <div class="formError-Name">
                         Please enter your name.
+                        :before
                     </div>
                     <div class="formError-Email">
                         Please enter a valid email address.
+                        :before
                     </div>
                     <div class="formError-Message">
                         Please enter a message.
+                        :before
                     </div>
                 </div>
                 <button class="contactFormSubmit" type="submit">Submit</button>

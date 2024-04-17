@@ -60,8 +60,68 @@ body {
     margin-bottom: 10rem;
 }
 
+.aboutMe {
+    color: tomato;
+    font-family:Khula;
+    font-size:1.5em;
+    text-align:center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    margin-bottom: 10rem;
+}
+
+.skills {
+    color: tomato;
+    font-family:Khula;
+    font-size:1.5em;
+    text-align:center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+    margin-bottom: 10rem;
+}
+
+.projects {
+    color: tomato;
+    font-family:Khula;
+    font-size:1.5em;
+    text-align:center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+    margin-bottom: 10rem;
+}
+
+.selfie {
+    display: none;
+    scale: 0.05;
+}
+
+.formError {
+    display: none;
+}
+
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
