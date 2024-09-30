@@ -1,14 +1,30 @@
 /* <!-- Path: style.css --> */
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 80%;
+    margin: 20px 0;
+}
+
 body {
     background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
 }
 .hidden {
     opacity:0;
 }
 .console-container {
-    font-family:Khula;
+    font-family:Khula, sans-serif;
     font-size:4em;
     text-align:center;
     height:200px;
