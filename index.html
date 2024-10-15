@@ -7,15 +7,24 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- <nav>
+        <ul>
+            <li><a href="#introduction" data-section="introduction">Introduction</a></li>
+            <li><a href="#aboutMe" data-section="aboutMe">About Me</a></li>
+            <li><a href="#skills" data-section="skills">Skills</a></li>
+            <li><a href="#contact" data-section="contact">Contact</a></li>
+            <li><a href="#projects" data-section="projects">Projects</a></li>
+        </ul>
+    </nav> -->
+
     <section id="introduction">
         <div class='console-container'>
-            <span id='text'></span>
+            <span id='name'></span>
             <div class='console-underscore' id='console'>
                 &#95;
             </div>
         </div>
     </section>
-    <script src="index.js"></script>
 
     <section id="aboutMe">
         <h2>About Me</h2>
@@ -28,8 +37,15 @@
     </section>
 
     <section id="contact">
-        <h2>Contact Me!</h2>
-        <p>Describe contact</p>
+        <div>Contact Me!
+            <form action="https://formspree.io/f/mvoevnql" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </section>
 
     <section id="projects">
@@ -40,5 +56,7 @@
     <footer>
         <p>&copy; 2024 Clayton Warstler</p>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>

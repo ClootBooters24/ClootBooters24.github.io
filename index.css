@@ -11,11 +11,11 @@ section {
 }
 
 body {
-    background: #111;
+    background: #2b2929;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     min-height: 100vh;
     margin: 0;
     text-align: center;
@@ -30,13 +30,13 @@ body {
     height:200px;
     width:600px;
     display:block;
-    position:absolute;
+    position:relative;
     color:white;
     top:0;
     bottom:0;
     left:0;
     right:0;
-    margin:auto;
+    margin: 10% auto 0 auto;
 }
 .console-underscore {
     display:inline-block;
@@ -46,11 +46,29 @@ body {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    width: 100%; /* Ensure the footer spans the full width */
+    width: 100%;
     color: #ff4d5a;
+}
+
+#contact {
+    font-family:Khula, sans-serif;
+    font-size:2em;
+    color:white;
+}
+
+input, textarea {
+    font-family:Khula, sans-serif;
+    font-size:2em;
+    color:white;
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 15px;
+    box-sizing: border-box;
+    resize: vertical;
+    border-radius: 5px;
 }

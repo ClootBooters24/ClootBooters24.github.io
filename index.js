@@ -1,5 +1,4 @@
-consoleText(['Clayton Warstler'], 'text', ['tomato']);
-
+consoleText(['Clayton Warstler'], 'name', ['tomato']);
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
   let visible = true;
@@ -44,3 +43,21 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+// document.querySelectorAll('nav a').forEach(anchor => {
+//   anchor.addEventListener('click', function (e) {
+//     e.preventDefault();
+//     const sectionId = this.getAttribute('data-section');
+//     const section = document.getElementById(sectionId);
+//     section.scrollIntoView({ behavior: 'smooth' });
+//     history.pushState(null, '', `/${sectionId}`);
+//   });
+// });
+
+// window.addEventListener('popstate', function () {
+//   const sectionId = location.pathname.substring(1);
+//   const section = document.getElementById(sectionId);
+//   if (section) {
+//     section.scrollIntoView({ behavior: 'smooth' });
+//   }
+// });
