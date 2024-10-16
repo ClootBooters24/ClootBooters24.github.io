@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- <nav>
-        <ul>
-            <li><a href="#introduction" data-section="introduction">Introduction</a></li>
-            <li><a href="#aboutMe" data-section="aboutMe">About Me</a></li>
-            <li><a href="#skills" data-section="skills">Skills</a></li>
-            <li><a href="#contact" data-section="contact">Contact</a></li>
-            <li><a href="#projects" data-section="projects">Projects</a></li>
+    <nav class="navBar">
+        <ul class="navigation">
+            <li><a href="#introduction">Home</a></li>
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav> -->
+    </nav>
 
     <section id="introduction">
         <div class='console-container'>
@@ -31,29 +30,23 @@
         <p>Describe myself</p>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Describe skills</p>
-    </section>
-
-    <section id="contact">
-        <div>Contact Me!
-            <form action="https://formspree.io/f/mvoevnql" method="POST">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea><br>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-
     <section id="projects">
         <h2>Projects</h2>
         <p>Describe projects</p>
     </section>
 
+    <section id="contact">
+        <div>Any Questions, Comments, and Concerns?
+            <form class="contactForm" action="https://formspree.io/f/mvoevnql" method="POST">
+                <input type="email" id="email" name="email" required placeholder="Email:"><br>
+                <textarea id="message" name="message" required placeholder="Message:"></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
+        
         <p>&copy; 2024 Clayton Warstler</p>
     </footer>
 

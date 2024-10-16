@@ -55,20 +55,112 @@ footer {
     color: #ff4d5a;
 }
 
-#contact {
+#aboutMe, #skills, #contact, #projects {
     font-family:Khula, sans-serif;
-    font-size:2em;
+    font-size: 1em;
     color:white;
 }
 
-input, textarea {
+/* Form Styles */
+input {
     font-family:Khula, sans-serif;
-    font-size:2em;
-    color:white;
+    font-size:auto;
+    /* color:white; */
     background-color: #333;
     border: 1px solid #555;
     padding: 15px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     resize: vertical;
+    overflow-wrap: break-word;
+    /* border-radius: 5px; */
+    width: 600px;
+    margin-bottom: 20px;
+}
+textarea {
+    font-family:Khula, sans-serif;
+    font-size:auto;
+    /* color:white; */
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 15px;
+    /* box-sizing: border-box; */
+    resize: vertical;
+    /* border-radius: 5px; */
+    overflow-wrap: break-word;
+    width: 600px;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #888;
+    opacity: 1;
+}
+
+button[type="submit"] {
+    font-family: Khula, sans-serif;
+    font-size: auto;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: Khula, sans-serif;
+    font-size: 1.2em;
+    color: #d3d3d3;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #d3d3d3;
     border-radius: 5px;
 }
