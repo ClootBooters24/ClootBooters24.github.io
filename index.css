@@ -174,5 +174,5 @@ nav ul li a:hover {
     padding: 15px 30px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-    border-radius: 5px; /* Optional: Add rounded corners */
+    border-radius: 5px;
 }
