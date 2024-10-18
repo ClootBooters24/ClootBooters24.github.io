@@ -8,9 +8,18 @@ I am a passionate developer with a keen interest in web development, open source
 
 ## Projects
 
-- **Project 1**: A brief description of your project.
+- Capstone Project - Brain Ballast Sensor:
+  - Designed to provide railroad workers easy access to data on ballasts 
+  - Detect core water pressure and acceleration through voltage readings 
+  - Create an android app to receive data from the sensors that are inside the ballast 
 - **Project 2**: A brief description of your project.
-- **Project 3**: A brief description of your project.
+- Laser Tag System:
+  - Allow the user to enter multiple players and add them to one of two teams
+  - A traffic generator will then create random hits between two players and send it to the database
+  - Hosting a database using an external database
+- Asteroid Game Replica:
+  - Using javidx9's olcConsoleGameEngine, recreate the game Asteroids in command line
+  - Utilizes vectors and trigonometry 
 
 ## Skills
 
@@ -34,7 +43,10 @@ I am a passionate developer with a keen interest in web development, open source
 - Sonar
 
 ### Tools and Technologies
-- List the tools and technologies you are proficient in.
+- Google Workspace
+- Active Directory
+- Git
+- VMWare
 
 ## Contact
 

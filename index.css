@@ -19,6 +19,7 @@ body {
     min-height: 100vh;
     margin: 0;
     text-align: center;
+    padding-top: 60px;
 }
 .hidden {
     opacity:0;
@@ -43,6 +44,18 @@ body {
     position:relative;
     top:-0.14em;
     left:10px;
+}
+
+h2::before {
+    content: '';
+    border-bottom: 18px solid #ff4d5a;
+    width: 10rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 2rem;
+    top: 5.25rem;
+    z-index: -1;
 }
 
 footer {
