@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div id="particles-js"></div>
     <nav class="navBar">
         <ul class="navigation">
             <li><a href="#introduction">Home</a></li>
@@ -28,13 +29,26 @@
     <section id="aboutMe">
         <h2>About Me</h2>
         <p>Describe myself</p>
-        <a id="resumeDownload" href="/assets/WarstlerC_Resume.pdf" download>Download my resume!</a>
+        <a id="resumeDownload" href="/assets/WarstlerC_Fall2024.pdf" download>Download my resume!</a>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <p>Describe projects</p>
-        <div id="brainBallast"></div>
+        <div id="brainBallast">
+            <img src="" alt="">
+            <h5>Brain Ballast Sensor</h5>
+            <p>**Problem:** Deterioration of railroad ballast due to water pressure buildup can lead to instability and derailments.</p>
+            <p>**Goal:** Develop a wireless sensor system to accurately measure localized pore water pressure within ballast and transmit data for real-time monitoring.</p>
+            <p>**Key Features:**</p>
+            <ul>
+              <li>Wireless Technology: Utilizes Bluetooth for data transmission.</li>
+              <li>Sensor Integration: Combines a pressure sensor with an accelerometer for additional data.</li>
+              <li>Customizable Housing: Designed to fit within ballast particles.</li>
+              <li>Android App: Provides a user-friendly interface for data collection and analysis.</li>
+            </ul>
+            <a href="https://github.com/BrainBallast/FinalCapstone">Learn More Here!</a>
+        </div>
     </section>
 
     <section id="contact">
@@ -52,6 +66,7 @@
         <p>&copy; 2024 Clayton Warstler</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

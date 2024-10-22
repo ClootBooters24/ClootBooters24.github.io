@@ -19,8 +19,10 @@ body {
     min-height: 100vh;
     margin: 0;
     text-align: center;
-    padding-top: 60px;
+    /* padding-top: 60px; */
+    scroll-padding-top: 80px; /* Adjust this value to match the height of your navbar */
 }
+
 .hidden {
     opacity:0;
 }
@@ -38,12 +40,22 @@ body {
     left:0;
     right:0;
     margin: 10% auto 0 auto;
+    padding-top: 80px;
 }
 .console-underscore {
     display:inline-block;
     position:relative;
     top:-0.14em;
     left:10px;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -9999; /* Ensure it stays behind other content */
 }
 
 h2::before {
@@ -68,10 +80,20 @@ footer {
     color: #ff4d5a;
 }
 
+#introduction {
+    font-family:Khula, sans-serif;
+    font-size: 1em;
+    color:white;
+    /* margin: 80px 0; */
+    padding-top: 80px;
+}
+    
 #aboutMe, #skills, #contact, #projects {
     font-family:Khula, sans-serif;
     font-size: 1em;
     color:white;
+    margin: 80px 0;
+    /* padding-top: 60px; */
 }
 
 /* Form Styles */
@@ -88,6 +110,7 @@ input {
     /* border-radius: 5px; */
     width: 600px;
     margin-bottom: 20px;
+    color: white;
 }
 textarea {
     font-family:Khula, sans-serif;
@@ -97,31 +120,27 @@ textarea {
     border: 1px solid #555;
     padding: 15px;
     /* box-sizing: border-box; */
-    resize: vertical;
+    resize: none;
     /* border-radius: 5px; */
     overflow-wrap: break-word;
     width: 600px;
-    resize: none;
+    /* resize: none; */
+    color: white;
 }
-
 textarea::-webkit-scrollbar {
     width: 1em;
 }
-
 textarea::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
-
 textarea::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
-
 input::placeholder, textarea::placeholder {
     color: #888;
     opacity: 1;
 }
-
 button[type="submit"] {
     font-family: Khula, sans-serif;
     font-size: auto;
@@ -133,7 +152,6 @@ button[type="submit"] {
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 5px; /* Optional: Add rounded corners */
 }
-
 button[type="submit"]:hover {
     background-color: #555;
     color: #fff;
@@ -151,18 +169,15 @@ nav {
     justify-content: center; 
     padding: 10px 0;
 }
-
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-
 nav ul li {
     margin: 0 15px;
 }
-
 nav ul li a {
     font-family: Khula, sans-serif;
     font-size: 1.2em;
@@ -171,13 +186,13 @@ nav ul li a {
     padding: 10px 15px;
     transition: background-color 0.3s ease;
 }
-
 nav ul li a:hover {
     background-color: #555;
     color: #d3d3d3;
     border-radius: 5px;
 }
 
+/* About Me */
 #resumeDownload {
     font-family: Khula, sans-serif;
     font-size: auto;
