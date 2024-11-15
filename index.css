@@ -204,3 +204,20 @@ nav ul li a:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 5px;
 }
+
+#iconBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between icons as needed */
+    background-color: #333; /* Adjust to match your page's background color */
+    border: 2px solid #555; /* Adjust to match your page's border color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.icons {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}

@@ -1,4 +1,26 @@
+# Site settings
+title: "Welcome to my blog"
+author: "Clayton Warstler"
+description: "A GitHub Pages site all about the things I have done."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ClootBooters24.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
 theme: minima
-title: Welcome to me
-author: Clayton Warstler
-description: A github pages site all about the things I have done.
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Social media links
+github_username:  ClootBooters24
+gmail: claywarstler@gmail.com
+instagram_username: ClootBooters24
+linkedin: https://www.linkedin.com/in/claytonwarstler24/
