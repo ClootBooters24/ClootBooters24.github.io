@@ -172,6 +172,59 @@ nav ul li a:hover {
     
 }
 
+/* Services Section */
+#services {
+    padding: 60px 0;
+}
+
+.service-item {
+    background: #333;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #444;
+    max-width: 800px;
+}
+
+.ccr-icon {
+    width: 300px;
+    height: 220px;
+    object-fit: contain;
+    margin: 0 auto 30px;
+    display: block;
+    background: #333;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid #ff4d5a;
+    transition: transform 0.3s ease;
+}
+
+.ccr-icon:hover {
+    transform: scale(1.05);
+}
+
+.service-content {
+    text-align: left;
+}
+
+.service-content h3 {
+    color: #ff4d5a;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.ccr-features {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.ccr-features li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    color: #d3d3d3;
+}
+
 /* ======= Projects Section ======= */
 .project-item {
     background: #333;
@@ -281,29 +334,23 @@ footer {
         gap: 25px;
         padding: 25px;
     }
-
-    .icons {
-        width: 60px;
-        height: 60px;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    h2::before {
-        top: 2.5rem;
-        left: 2rem;
-    }
-
-    .project-item {
+    .service-item {
         padding: 25px;
+        margin: 20px auto;
     }
-
-    /* Maintain button proportions */
-    button[type="submit"], #resumeDownload {
-        padding: 12px 35px;
-        font-size: 1em;
+    
+    .service-icon {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .service-content {
+        text-align: center;
+    }
+    
+    .service-features {
+        padding-left: 0;
+        list-style: none;
     }
 }
 
@@ -336,5 +383,14 @@ footer {
     h2::before {
         top: 2.5rem;
         left: 2rem;
+    }
+
+    .service-icon {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .service-content h3 {
+        font-size: 1.5em;
     }
 }
