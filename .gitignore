@@ -36,3 +36,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDEs and editors #
+####################
+.vscode/settings.json
