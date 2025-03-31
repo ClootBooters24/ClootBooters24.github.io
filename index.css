@@ -169,7 +169,43 @@ nav ul li a:hover {
 
 .icons:hover {
     transform: scale(1.15);
-    
+}
+
+.socials p {
+    color: #ff4d5a;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#socials {
+    gap: 30px;
+    padding: 30px;
+    margin: 40px auto;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.linkedin-icon {
+    width: 70px;
+    height: 70px;
+    transition: all 0.3s ease;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.15);
+}
+
+.discord-icon {
+    width: 70px;
+    height: 70px;
+    transition: all 0.3s ease;
+}
+
+.discord-icon:hover {
+    transform: scale(1.15);
 }
 
 /* Services Section */
