@@ -1,7 +1,7 @@
 # Site settings
-title: "Welcome to my blog"
+title: "Welcome to me."
 author: "Clayton Warstler"
-description: "A GitHub Pages site all about the things I have done."
+description: "A GitHub Pages site all about me."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ClootBooters24.github.io" # the base hostname & protocol for your site
 
