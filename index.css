@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: #2b2929;
     display: flex;
@@ -99,7 +95,6 @@ h2::before {
     z-index: -1;
 }
 
-
 h2 {
     font-size: 2.5em;
     margin-bottom: 2em;
@@ -141,12 +136,21 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
-    
 }
 
 /* ======= About Me Section ======= */
 #aboutMe {
     padding: 40px 0;
+}
+
+#bio {
+    padding: 30px;
+    margin: 40px auto;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
 }
 
 #iconBox {
@@ -159,6 +163,12 @@ nav ul li a:hover {
     border-radius: 15px;
     width: 90%;
     max-width: 800px;
+}
+
+#iconBox h3 {
+    color: #ff4d5a;
+    font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
 .icons {
@@ -208,7 +218,7 @@ nav ul li a:hover {
     transform: scale(1.15);
 }
 
-/* Services Section */
+/* ======= Services Section ======= */
 #services {
     padding: 60px 0;
 }
@@ -296,7 +306,7 @@ nav ul li a:hover {
     transition: border-color 0.3s ease;
   }
   
-  .project-link:hover {
+.project-link:hover {
     border-color: #ff4d5a;
   }
 
@@ -313,7 +323,7 @@ nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
-  .asteroidsss-icon:hover {
+.asteroidsss-icon:hover {
     transform: scale(1.05);
   }  
 

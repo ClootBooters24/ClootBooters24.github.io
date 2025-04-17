@@ -227,3 +227,21 @@ particlesJS("particles-js", {
     }
   }
 });
+
+// Smooth scrolling for internal links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault(); // Prevent default anchor behavior
+
+      const targetId = this.getAttribute('href').substring(1); // Get the target ID
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+          // Scroll to the target element smoothly
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    } 
+  });
+});
