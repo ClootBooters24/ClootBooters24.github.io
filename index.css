@@ -426,7 +426,7 @@ footer {
 
     nav ul li a {
         font-size: 1em;
-        padding: 8px 12px;
+        padding: 0.5px 0.5px;
     }
 
     #iconBox {
@@ -455,5 +455,14 @@ footer {
     
     .service-content h3 {
         font-size: 1.5em;
+    }
+
+    .ccr-icon {
+        width: 200px;
+        height: 150px;
+    }
+    .asteroidsss-icon {
+        width: 200px;
+        height: 150px;
     }
 }
