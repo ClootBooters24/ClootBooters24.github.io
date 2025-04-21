@@ -6,17 +6,23 @@
 
 I am a passionate developer with a keen interest in web development, open source contributions, and continuous learning. My goal is to create impactful software solutions that make a difference.
 
+## Services
+
+- Clay's Computer Repair
+  - Custom computer builds optimized for gaming setups and home systems
+  - Repair services including hardware diagnostics, virus removal, and system upgrades
+
 ## Projects
 
 - Capstone Project - Brain Ballast Sensor:
   - Designed to provide railroad workers easy access to data on ballasts 
   - Detect core water pressure and acceleration through voltage readings 
   - Create an android app to receive data from the sensors that are inside the ballast 
-- **Project 2**: A brief description of your project.
-- Laser Tag System:
-  - Allow the user to enter multiple players and add them to one of two teams
-  - A traffic generator will then create random hits between two players and send it to the database
-  - Hosting a database using an external database
+- PowerShell Scripting:
+  - Automate and simplify multiple tasks
+  - In Active Directory, create, remove, update users
+  - Determine disk health, checking for failures and determine usage
+  - Install Firefox and uBlock origin based on device instead of user
 - Asteroid Game Replica:
   - Using javidx9's olcConsoleGameEngine, recreate the game Asteroids in command line
   - Utilizes vectors and trigonometry 
@@ -47,6 +53,7 @@ I am a passionate developer with a keen interest in web development, open source
 - Active Directory
 - Git
 - VMWare
+- 
 
 ## Contact
 
