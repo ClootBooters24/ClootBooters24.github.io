@@ -49,8 +49,8 @@ button[type="submit"]:hover, #resumeDownload:hover {
     font-family: Khula, sans-serif;
     font-size: 4em;
     text-align: center;
-    height: 1.0vh;
-    width: 1.0vw;
+    height: 200px;
+    width: 600px;
     display: block;
     position: relative;
     color: white;
