@@ -323,7 +323,8 @@ nav ul li a:hover {
     border-color: #ff4d5a;
   }
 
-.asteroidsss-icon, .thirdgenconst-icon {
+.asteroidsss-icon, .thirdgenconst-icon,
+.wildflowersalon-icon {
     width: 300px;
     height: 220px;
     object-fit: contain;
@@ -336,13 +337,15 @@ nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
-.thirdgenconst-icon {
+.thirdgenconst-icon,
+.wildflowersalon-icon {
     width: 50%;
     height: 50%;
     object-fit: contain;
 }
 
-.asteroidsss-icon:hover, .thirdgenconst-icon:hover {
+.asteroidsss-icon:hover, .thirdgenconst-icon:hover,
+.wildflowersalon-icon:hover {
     transform: scale(1.05);
   }  
 
