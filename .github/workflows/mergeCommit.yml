@@ -1,7 +1,4 @@
-name: Merge your pull request
-
-# This step triggers after a pull requst is merged to `main`.
-# This workflow updates from step 5 to step X.
+name: Merge commit
 
 # This will run every time we create push a commit to `main`.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
@@ -53,12 +50,3 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0 # Let's get all the branches.
-
-      # In README.md, switch step 5 for step X.
-      - name: Update to step X
-        uses: skills/action-update-step@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 5
-          to_step: X
-          branch_name: my-pages
