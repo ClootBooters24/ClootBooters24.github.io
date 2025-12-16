@@ -11,6 +11,10 @@ I am a passionate developer with a keen interest in web development, open source
 - Clay's Computer Repair
   - Custom computer builds optimized for gaming setups and home systems
   - Repair services including hardware diagnostics, virus removal, and system upgrades
+- Web Development
+  - Full-stack web development services using modern technologies
+  - Responsive design to ensure optimal user experience across devices
+  - SEO optimization to improve website visibility and ranking
 
 ## Projects
 
@@ -26,6 +30,15 @@ I am a passionate developer with a keen interest in web development, open source
 - Asteroid Game Replica:
   - Using javidx9's olcConsoleGameEngine, recreate the game Asteroids in command line
   - Utilizes vectors and trigonometry 
+- Third Generation Construction Website:
+  - Full stack website for a local construction company
+  - Features include project galleries, service listings, and contact forms
+- NextGen AMS (Asset Management System):
+  - A comprehensive asset management system for tracking and managing company assets
+  - Built with a focus on user-friendly interface and robust backend functionality
+- Wildflower Salon Website:
+  - A modern website for a local salon, showcasing services, team members, and booking options
+  - Designed with a responsive layout to ensure accessibility across devices
 
 ## Skills
 
@@ -47,13 +60,18 @@ I am a passionate developer with a keen interest in web development, open source
 - Spring
 - Selenium
 - Sonar
+- Vue
 
 ### Tools and Technologies
 - Google Workspace
 - Active Directory
 - Git
 - VMWare
-- 
+- Google Cloud
+- AWS
+- Docker
+- Azure DevOps
+- Cloudflare
 
 ## Contact
 
